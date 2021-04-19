@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/valorant_up"
+        />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/buttons"
+        />
+
+    <Button
+        android:id="@+id/previous_button"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/buttons"
+        />
+
+    <TextClock
+        android:id="@+id/text_clock"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="106sp"
+        android:fontFamily="@font/sf_ui_display_regular"
+        android:layout_marginTop="40dp"
+        android:format12Hour="kk:mm"
+        />
+
+    <TextClock
+        android:id="@+id/text_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:format24Hour="EEEE, MMMM d"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/sf_ui_display_regular"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_below="@+id/text_clock"
+        />
+
+</RelativeLayout>
