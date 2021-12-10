@@ -11,7 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FullPaper">
-        <activity android:name=".Page10"></activity>
+        <activity
+            android:name=".Page15"
+            android:exported="false" />
+        <activity
+            android:name=".Page14"
+            android:exported="false" />
+        <activity
+            android:name=".Page13"
+            android:exported="false" />
+        <activity
+            android:name=".Page12"
+            android:exported="false" />
+        <activity
+            android:name=".Page11"
+            android:exported="false" />
+        <activity android:name=".Page10" />
         <activity android:name=".Page9" />
         <activity android:name=".Page8" />
         <activity android:name=".Page7" />
