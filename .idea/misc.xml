@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/buttons.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_page1.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_page10.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_page11.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_page12.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_page13.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_page14.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_page15.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_page2.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_page3.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_page4.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_page5.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_page6.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_page7.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_page8.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_page9.xml" value="0.21829710144927536" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
