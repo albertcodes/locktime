@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         // get reference to button
         val previous_button = findViewById(R.id.previous_button) as Button
         previous_button.setOnClickListener {
-            val intent = Intent(this, Page10::class.java).apply{
+            val intent = Intent(this, Page15::class.java).apply{
             }
             startActivity(intent)
         }
