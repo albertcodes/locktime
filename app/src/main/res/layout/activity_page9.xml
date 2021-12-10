@@ -5,13 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:keepScreenOn="true"
     tools:context=".Page9">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/indoor_design"
+        android:src="@drawable/dva_cosplay"
         />
 
     <Button
@@ -35,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="102dp"
         android:textAlignment="center"
-        android:textColor="@color/charcoal"
+        android:textColor="@color/white"
         android:textSize="106sp"
         android:fontFamily="@font/sf_ui_display_regular"
         android:layout_marginTop="40dp"
@@ -51,7 +52,7 @@
         android:fontFamily="@font/sf_ui_display_regular"
         android:textSize="24sp"
         android:textAlignment="center"
-        android:textColor="@color/charcoal"
+        android:textColor="@color/white"
         android:layout_below="@+id/text_clock"
         />
 
